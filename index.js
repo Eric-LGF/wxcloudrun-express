@@ -18,7 +18,9 @@ app.get("/", async (req, res) => {
 });
 
 app.get("/", async(req, res) => {
-  res.send("abc123");
+  res.send({
+    code: 0,
+    data: 123,});
 });
 
 // 更新计数

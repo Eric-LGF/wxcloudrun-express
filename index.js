@@ -17,7 +17,7 @@ app.get("/", async (req, res) => {
   res.sendFile(path.join(__dirname, "index.html"));
 });
 
-app.get("/", async(req, res) => {
+app.get("/test", async(req, res) => {
   res.send({
     code: 0,
     data: 123,});
